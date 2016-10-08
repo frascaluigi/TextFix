@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A01BD131CAB2A8A000E3378 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01BD121CAB2A8A000E3378 /* Reachability.m */; };
+		2A131D211C08A25A00F7EC75 /* TFConManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A131D201C08A25A00F7EC75 /* TFConManager.m */; };
+		2A131D251C08BA4300F7EC75 /* TFLocManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A131D241C08BA4300F7EC75 /* TFLocManager.m */; };
+		2AB0444B1C075E6B0077F67B /* TFMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0444A1C075E6B0077F67B /* TFMessage.m */; };
+		2AB0444E1C078FCB0077F67B /* ShowMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0444D1C078FCB0077F67B /* ShowMessageViewController.m */; };
+		2AB9DAFD1CD94E5E0018721D /* TFWriterReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB9DAFC1CD94E5E0018721D /* TFWriterReader.m */; };
+		8B0E4AC11C2B39570031833C /* TFsettingModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E4AC01C2B39570031833C /* TFsettingModel2.m */; };
+		8B0E4AC41C2B3EAD0031833C /* TFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E4AC31C2B3EAD0031833C /* TFCell.m */; };
+		8B32977F1C05F50F002537FE /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B32977E1C05F50F002537FE /* InformationViewController.m */; };
+		8B3297821C05F728002537FE /* TFSettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3297811C05F728002537FE /* TFSettingsModel.m */; };
+		8B464C221D8C5BCC00599E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B464C211D8C5BCC00599E7B /* Main.storyboard */; };
 		8B4D1F0F1C05C6D60082221E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D1F0E1C05C6D60082221E /* main.m */; };
 		8B4D1F121C05C6D60082221E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D1F111C05C6D60082221E /* AppDelegate.m */; };
-		8B4D1F151C05C6D60082221E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D1F141C05C6D60082221E /* ViewController.m */; };
-		8B4D1F181C05C6D60082221E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D1F161C05C6D60082221E /* Main.storyboard */; };
+		8B4D1F151C05C6D60082221E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D1F141C05C6D60082221E /* MapViewController.m */; };
 		8B4D1F1A1C05C6D60082221E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D1F191C05C6D60082221E /* Images.xcassets */; };
 		8B4D1F1D1C05C6D60082221E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D1F1B1C05C6D60082221E /* LaunchScreen.xib */; };
 		8B4D1F291C05C6D60082221E /* TextFixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D1F281C05C6D60082221E /* TextFixTests.m */; };
+		8B4D1F331C05C6FE0082221E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4D1F321C05C6FE0082221E /* MapKit.framework */; };
+		8B4D1F351C05C70D0082221E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4D1F341C05C70D0082221E /* CoreLocation.framework */; };
+		8B4D1F381C05CEF80082221E /* TFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D1F371C05CEF80082221E /* TFAnnotation.m */; };
+		8B751BDC1D89950C00DA2C2D /* WriteMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B751BDB1D89950C00DA2C2D /* WriteMessage.m */; };
+		8B9148D51C2B097E00B57022 /* TFConObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9148D41C2B097E00B57022 /* TFConObject.m */; };
+		8BB75D0B1D8D92C5008DC7A6 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB75D0A1D8D92C5008DC7A6 /* ProfileViewController.m */; };
+		8BE3449F1D8AF53D001CF19C /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3449E1D8AF53D001CF19C /* MessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +44,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A01BD111CAB2A8A000E3378 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2A01BD121CAB2A8A000E3378 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2A131D1F1C08A25A00F7EC75 /* TFConManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFConManager.h; sourceTree = "<group>"; };
+		2A131D201C08A25A00F7EC75 /* TFConManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFConManager.m; sourceTree = "<group>"; };
+		2A131D231C08BA4300F7EC75 /* TFLocManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFLocManager.h; sourceTree = "<group>"; };
+		2A131D241C08BA4300F7EC75 /* TFLocManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFLocManager.m; sourceTree = "<group>"; };
+		2AB044491C075E6B0077F67B /* TFMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMessage.h; sourceTree = "<group>"; };
+		2AB0444A1C075E6B0077F67B /* TFMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMessage.m; sourceTree = "<group>"; };
+		2AB0444C1C078FCB0077F67B /* ShowMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowMessageViewController.h; path = ../ShowMessageViewController.h; sourceTree = "<group>"; };
+		2AB0444D1C078FCB0077F67B /* ShowMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowMessageViewController.m; path = ../ShowMessageViewController.m; sourceTree = "<group>"; };
+		2AB9DAFB1CD94E5E0018721D /* TFWriterReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFWriterReader.h; sourceTree = "<group>"; };
+		2AB9DAFC1CD94E5E0018721D /* TFWriterReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFWriterReader.m; sourceTree = "<group>"; };
+		8B0E4ABF1C2B39570031833C /* TFsettingModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFsettingModel2.h; sourceTree = "<group>"; };
+		8B0E4AC01C2B39570031833C /* TFsettingModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFsettingModel2.m; sourceTree = "<group>"; };
+		8B0E4AC21C2B3EAD0031833C /* TFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCell.h; sourceTree = "<group>"; };
+		8B0E4AC31C2B3EAD0031833C /* TFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCell.m; sourceTree = "<group>"; };
+		8B32977D1C05F50F002537FE /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InformationViewController.h; path = ../InformationViewController.h; sourceTree = "<group>"; };
+		8B32977E1C05F50F002537FE /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InformationViewController.m; path = ../InformationViewController.m; sourceTree = "<group>"; };
+		8B3297801C05F728002537FE /* TFSettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSettingsModel.h; sourceTree = "<group>"; };
+		8B3297811C05F728002537FE /* TFSettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSettingsModel.m; sourceTree = "<group>"; };
+		8B464C211D8C5BCC00599E7B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8B4D1F091C05C6D60082221E /* TextFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D1F0D1C05C6D60082221E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B4D1F0E1C05C6D60082221E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B4D1F101C05C6D60082221E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B4D1F111C05C6D60082221E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B4D1F131C05C6D60082221E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B4D1F141C05C6D60082221E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8B4D1F171C05C6D60082221E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B4D1F131C05C6D60082221E /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8B4D1F141C05C6D60082221E /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		8B4D1F191C05C6D60082221E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B4D1F1C1C05C6D60082221E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8B4D1F221C05C6D60082221E /* TextFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D1F271C05C6D60082221E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B4D1F281C05C6D60082221E /* TextFixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFixTests.m; sourceTree = "<group>"; };
+		8B4D1F321C05C6FE0082221E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8B4D1F341C05C70D0082221E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8B4D1F361C05CEF80082221E /* TFAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAnnotation.h; sourceTree = "<group>"; };
+		8B4D1F371C05CEF80082221E /* TFAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAnnotation.m; sourceTree = "<group>"; };
+		8B751BDA1D89950C00DA2C2D /* WriteMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WriteMessage.h; path = ../WriteMessage.h; sourceTree = "<group>"; };
+		8B751BDB1D89950C00DA2C2D /* WriteMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WriteMessage.m; path = ../WriteMessage.m; sourceTree = "<group>"; };
+		8B9148D31C2B097E00B57022 /* TFConObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFConObject.h; sourceTree = "<group>"; };
+		8B9148D41C2B097E00B57022 /* TFConObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFConObject.m; sourceTree = "<group>"; };
+		8BB75D091D8D92C5008DC7A6 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		8BB75D0A1D8D92C5008DC7A6 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8BE3449D1D8AF53D001CF19C /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		8BE3449E1D8AF53D001CF19C /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4D1F351C05C70D0082221E /* CoreLocation.framework in Frameworks */,
+				8B4D1F331C05C6FE0082221E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +111,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A131D1E1C089E8400F7EC75 /* TFMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2AB044491C075E6B0077F67B /* TFMessage.h */,
+				2AB0444A1C075E6B0077F67B /* TFMessage.m */,
+			);
+			name = TFMessage;
+			sourceTree = "<group>";
+		};
+		2A131D221C08BA2700F7EC75 /* TFConnection */ = {
+			isa = PBXGroup;
+			children = (
+				2A131D1F1C08A25A00F7EC75 /* TFConManager.h */,
+				2A131D201C08A25A00F7EC75 /* TFConManager.m */,
+				8B9148D31C2B097E00B57022 /* TFConObject.h */,
+				8B9148D41C2B097E00B57022 /* TFConObject.m */,
+			);
+			name = TFConnection;
+			sourceTree = "<group>";
+		};
+		2A131D261C08C36200F7EC75 /* TFManager */ = {
+			isa = PBXGroup;
+			children = (
+				2A131D231C08BA4300F7EC75 /* TFLocManager.h */,
+				2A131D241C08BA4300F7EC75 /* TFLocManager.m */,
+			);
+			name = TFManager;
+			sourceTree = "<group>";
+		};
+		2AB9DAFF1CD94ED20018721D /* TFWriterReader */ = {
+			isa = PBXGroup;
+			children = (
+				2AB9DAFB1CD94E5E0018721D /* TFWriterReader.h */,
+				2AB9DAFC1CD94E5E0018721D /* TFWriterReader.m */,
+			);
+			name = TFWriterReader;
+			path = TextFix;
+			sourceTree = "<group>";
+		};
+		8B3297831C05F730002537FE /* TFSettingsModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B3297801C05F728002537FE /* TFSettingsModel.h */,
+				8B3297811C05F728002537FE /* TFSettingsModel.m */,
+				8B0E4ABF1C2B39570031833C /* TFsettingModel2.h */,
+				8B0E4AC01C2B39570031833C /* TFsettingModel2.m */,
+			);
+			name = TFSettingsModel;
+			sourceTree = "<group>";
+		};
 		8B4D1F001C05C6D60082221E = {
 			isa = PBXGroup;
 			children = (
+				8B464C211D8C5BCC00599E7B /* Main.storyboard */,
+				2AB9DAFF1CD94ED20018721D /* TFWriterReader */,
+				2A131D261C08C36200F7EC75 /* TFManager */,
+				2A131D221C08BA2700F7EC75 /* TFConnection */,
+				8B3297831C05F730002537FE /* TFSettingsModel */,
+				2A131D1E1C089E8400F7EC75 /* TFMessage */,
+				8B4D1F391C05D1230082221E /* TFAnnotation */,
+				8B4D1F341C05C70D0082221E /* CoreLocation.framework */,
+				8B4D1F321C05C6FE0082221E /* MapKit.framework */,
 				8B4D1F0B1C05C6D60082221E /* TextFix */,
 				8B4D1F251C05C6D60082221E /* TextFixTests */,
 				8B4D1F0A1C05C6D60082221E /* Products */,
@@ -81,11 +191,24 @@
 		8B4D1F0B1C05C6D60082221E /* TextFix */ = {
 			isa = PBXGroup;
 			children = (
+				2A01BD111CAB2A8A000E3378 /* Reachability.h */,
+				2A01BD121CAB2A8A000E3378 /* Reachability.m */,
+				8B0E4AC21C2B3EAD0031833C /* TFCell.h */,
+				8B0E4AC31C2B3EAD0031833C /* TFCell.m */,
+				8B4D1F131C05C6D60082221E /* MapViewController.h */,
+				8B4D1F141C05C6D60082221E /* MapViewController.m */,
+				8B32977D1C05F50F002537FE /* InformationViewController.h */,
+				8B32977E1C05F50F002537FE /* InformationViewController.m */,
+				8BE3449D1D8AF53D001CF19C /* MessageViewController.h */,
+				8BE3449E1D8AF53D001CF19C /* MessageViewController.m */,
 				8B4D1F101C05C6D60082221E /* AppDelegate.h */,
 				8B4D1F111C05C6D60082221E /* AppDelegate.m */,
-				8B4D1F131C05C6D60082221E /* ViewController.h */,
-				8B4D1F141C05C6D60082221E /* ViewController.m */,
-				8B4D1F161C05C6D60082221E /* Main.storyboard */,
+				2AB0444C1C078FCB0077F67B /* ShowMessageViewController.h */,
+				2AB0444D1C078FCB0077F67B /* ShowMessageViewController.m */,
+				8B751BDA1D89950C00DA2C2D /* WriteMessage.h */,
+				8B751BDB1D89950C00DA2C2D /* WriteMessage.m */,
+				8BB75D091D8D92C5008DC7A6 /* ProfileViewController.h */,
+				8BB75D0A1D8D92C5008DC7A6 /* ProfileViewController.m */,
 				8B4D1F191C05C6D60082221E /* Images.xcassets */,
 				8B4D1F1B1C05C6D60082221E /* LaunchScreen.xib */,
 				8B4D1F0C1C05C6D60082221E /* Supporting Files */,
@@ -117,6 +240,15 @@
 				8B4D1F271C05C6D60082221E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B4D1F391C05D1230082221E /* TFAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D1F361C05CEF80082221E /* TFAnnotation.h */,
+				8B4D1F371C05CEF80082221E /* TFAnnotation.m */,
+			);
+			name = TFAnnotation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +300,7 @@
 				TargetAttributes = {
 					8B4D1F081C05C6D60082221E = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S6S694M74P;
 					};
 					8B4D1F211C05C6D60082221E = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -199,7 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4D1F181C05C6D60082221E /* Main.storyboard in Resources */,
+				8B464C221D8C5BCC00599E7B /* Main.storyboard in Resources */,
 				8B4D1F1D1C05C6D60082221E /* LaunchScreen.xib in Resources */,
 				8B4D1F1A1C05C6D60082221E /* Images.xcassets in Resources */,
 			);
@@ -219,8 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4D1F151C05C6D60082221E /* ViewController.m in Sources */,
+				8BE3449F1D8AF53D001CF19C /* MessageViewController.m in Sources */,
+				8B4D1F151C05C6D60082221E /* MapViewController.m in Sources */,
 				8B4D1F121C05C6D60082221E /* AppDelegate.m in Sources */,
+				8BB75D0B1D8D92C5008DC7A6 /* ProfileViewController.m in Sources */,
+				8B32977F1C05F50F002537FE /* InformationViewController.m in Sources */,
+				2A131D251C08BA4300F7EC75 /* TFLocManager.m in Sources */,
+				2A01BD131CAB2A8A000E3378 /* Reachability.m in Sources */,
+				2AB9DAFD1CD94E5E0018721D /* TFWriterReader.m in Sources */,
+				8B0E4AC11C2B39570031833C /* TFsettingModel2.m in Sources */,
+				2AB0444E1C078FCB0077F67B /* ShowMessageViewController.m in Sources */,
+				8B9148D51C2B097E00B57022 /* TFConObject.m in Sources */,
+				8B4D1F381C05CEF80082221E /* TFAnnotation.m in Sources */,
+				8B751BDC1D89950C00DA2C2D /* WriteMessage.m in Sources */,
+				8B0E4AC41C2B3EAD0031833C /* TFCell.m in Sources */,
+				8B3297821C05F728002537FE /* TFSettingsModel.m in Sources */,
+				2AB0444B1C075E6B0077F67B /* TFMessage.m in Sources */,
+				2A131D211C08A25A00F7EC75 /* TFConManager.m in Sources */,
 				8B4D1F0F1C05C6D60082221E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +392,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B4D1F161C05C6D60082221E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B4D1F171C05C6D60082221E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B4D1F1B1C05C6D60082221E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,9 +489,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TextFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,9 +502,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TextFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -418,6 +564,7 @@
 				8B4D1F2E1C05C6D60082221E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B4D1F2F1C05C6D60082221E /* Build configuration list for PBXNativeTarget "TextFixTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +573,7 @@
 				8B4D1F311C05C6D60082221E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

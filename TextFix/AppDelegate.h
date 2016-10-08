@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TFConManager.h"
+#import "TFLocManager.h"
+#import "TFConObject.h"
+#import "TFMessage.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) TFConManager *connection;
+@property (strong, nonatomic) TFLocManager *locationManager;
+@property (strong, nonatomic, readonly) NSMutableDictionary *messages;
+@property (strong, nonatomic) Reachability *reachability;
 
 @end
 
